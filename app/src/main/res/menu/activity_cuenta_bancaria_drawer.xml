@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/tarjeta"
+            android:title="@string/txt_title1_String" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/transaccion"
+            android:title="@string/txt_title2_String" />
+        <item
+            android:id="@+id/nav_serv"
+            android:icon="@drawable/pagoservicios"
+            android:title="@string/txt_pago9_String" />
+        <item
+            android:id="@+id/nav_sueldo"
+            android:icon="@drawable/sueldo"
+            android:title="@string/txt_adela1_String" />
+
+    </group>
+4
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="@string/txt_text6_String" />
+        </menu>
+    </item>
+
+</menu>
